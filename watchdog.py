@@ -175,8 +175,8 @@ import time, logging
 from time import sleep, asctime
 import datetime
 import sys, os
-import astro_pi
-from astro_pi import AstroPi
+import sense_hat as astro_pi
+from sense_hat import SenseHat as AstroPi
 import picamera
 
 
